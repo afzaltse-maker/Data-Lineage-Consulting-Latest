@@ -86,7 +86,7 @@ export const industries = [
     id: 'insurance',
     name: 'Insurance',
     title: 'Insurance Sector',
-    description1: 'Elenor Insurance Industry Services can help you improve profitability while balancing the demands of regulatory change and shifting customer expectations. Our multidisciplinary approach brings together specialists in actuarial, risk management, strategy, operations, technology, tax, and audit.',
+    description1: 'Data Lineage Consulting Insurance Industry Services can help you improve profitability while balancing the demands of regulatory change and shifting customer expectations. Our multidisciplinary approach brings together specialists in actuarial, risk management, strategy, operations, technology, tax, and audit.',
     description2: 'We provide comprehensive insurance industry solutions that help you navigate the complex regulatory landscape while maintaining competitive advantage.',
     image: 'https://images.pexels.com/photos/3184438/pexels-photo-3184438.jpeg'
   }
