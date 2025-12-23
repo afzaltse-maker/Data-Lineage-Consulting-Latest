@@ -290,7 +290,7 @@ const Home = () => {
           <div className="max-w-4xl mx-auto relative">
             <Card className="p-8">
               <CardContent className="text-center">
-                <Quote className="text-transparent bg-gradient-to-r from-purple-600 to-pink-600 mx-auto mb-4" size={48} style={{WebkitTextStroke: '1px rgba(147, 51, 234, 0.5)'}} />
+                <Quote className="text-teal-600 mx-auto mb-4" size={48} />
                 <p className="text-gray-600 text-lg mb-6 italic">
                   {testimonials[currentTestimonial].comment}
                 </p>
