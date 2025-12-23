@@ -119,8 +119,8 @@ const Staffing = () => {
               return (
                 <Card key={index} className="hover:shadow-xl transition-all duration-300">
                   <CardContent className="p-6">
-                    <div className="w-14 h-14 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
-                      <IconComponent className="text-blue-600" size={28} />
+                    <div className="w-14 h-14 bg-gradient-to-br from-purple-100 to-pink-100 rounded-lg flex items-center justify-center mb-4">
+                      <IconComponent className="text-purple-600" size={28} />
                     </div>
                     <h3 className="text-xl font-bold mb-3 text-gray-800">{benefit.title}</h3>
                     <p className="text-gray-600">{benefit.description}</p>
