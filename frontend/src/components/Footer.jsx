@@ -100,7 +100,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-700 mt-8 pt-8 text-center">
           <p className="text-gray-400 text-sm">
-            Copyright © {new Date().getFullYear()} All rights reserved Elenor Consulting Limited.
+            Copyright © {new Date().getFullYear()} All rights reserved Data Lineage Consulting Limited.
           </p>
         </div>
       </div>
