@@ -150,7 +150,7 @@ const Staffing = () => {
             ].map((item, index) => (
               <div key={index} className="relative">
                 <div className="bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-all duration-300">
-                  <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center text-xl font-bold mb-4">
+                  <div className="w-12 h-12 bg-gradient-to-br from-purple-600 to-pink-600 text-white rounded-full flex items-center justify-center text-xl font-bold mb-4 shadow-lg">
                     {item.step}
                   </div>
                   <h3 className="text-lg font-bold mb-2 text-gray-800">{item.title}</h3>
