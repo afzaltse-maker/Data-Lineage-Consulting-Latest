@@ -18,7 +18,7 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <h3 className="text-2xl font-bold mb-4">
-              <span className="text-blue-400">Elenor</span> Consulting
+              <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Data Lineage</span> Consulting
             </h3>
             <p className="text-gray-400 mb-4">
               Delivering innovative solutions to tackle the biggest consulting and staffing challenges.
@@ -30,7 +30,7 @@ const Footer = () => {
                   <a
                     key={social.name}
                     href={social.url}
-                    className="w-10 h-10 bg-gray-700 hover:bg-blue-600 rounded-full flex items-center justify-center transition-colors"
+                    className="w-10 h-10 bg-gray-700 hover:bg-gradient-to-r hover:from-purple-600 hover:to-pink-600 rounded-full flex items-center justify-center transition-all duration-300"
                     aria-label={social.name}
                   >
                     <IconComponent size={18} />
