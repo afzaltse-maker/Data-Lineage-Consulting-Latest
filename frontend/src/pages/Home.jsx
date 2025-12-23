@@ -380,16 +380,16 @@ const Home = () => {
                     alt={post.title}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
-                  <div className="absolute top-4 left-4 bg-blue-600 text-white px-4 py-2 rounded">
+                  <div className="absolute top-4 left-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white px-4 py-2 rounded shadow-lg">
                     {post.date}
                   </div>
                 </div>
                 <CardContent className="p-6">
-                  <div className="text-sm text-blue-600 mb-2">{post.category}</div>
+                  <div className="text-sm bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent font-semibold mb-2">{post.category}</div>
                   <h3 className="text-xl font-bold mb-3 text-gray-800 line-clamp-2">{post.title}</h3>
                   <p className="text-gray-600 mb-4 line-clamp-3">{post.excerpt}</p>
-                  <Button variant="link" className="text-blue-600 p-0">
-                    READ MORE <ArrowRight className="ml-2" size={16} />
+                  <Button variant="link" className="text-transparent bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text p-0 font-semibold">
+                    READ MORE <ArrowRight className="ml-2 inline" size={16} />
                   </Button>
                 </CardContent>
               </Card>
