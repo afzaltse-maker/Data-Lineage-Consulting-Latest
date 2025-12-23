@@ -17,7 +17,7 @@ export const heroData = {
 };
 
 export const aboutData = {
-  title: 'Elenor Professional Advice',
+  title: 'Data Lineage Consulting - Professional Advice',
   description1: 'We have committed to provide personalized, conscientious, and comprehensive services to our clientele. Service that will not only enable you and your Staffing Solutions organization to realize sustainable success, but to arrive at that point having also developed confidence and trust in our ability to assist you in future endeavors.',
   description2: 'Our firm\'s team of Staffing consultants carry a variety of specialty credentials from all corners of the field. However, they do share a common trait in that they all have years of hands on experience in their areas of expertise.',
   image: 'https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg'
