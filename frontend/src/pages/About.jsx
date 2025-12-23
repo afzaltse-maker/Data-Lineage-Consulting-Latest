@@ -10,7 +10,7 @@ const About = () => {
       <section
         className="relative h-96 flex items-center justify-center text-white"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 40, 100, 0.8), rgba(0, 60, 120, 0.85)), url(https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg)`,
+          backgroundImage: `linear-gradient(135deg, rgba(147, 51, 234, 0.8), rgba(236, 72, 153, 0.8)), url(https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg)`,
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}
@@ -30,12 +30,12 @@ const About = () => {
               <p className="text-gray-600 mb-4 leading-relaxed">{aboutData.description1}</p>
               <p className="text-gray-600 mb-6 leading-relaxed">{aboutData.description2}</p>
               <div className="grid grid-cols-2 gap-4 mt-8">
-                <div className="bg-blue-50 p-6 rounded-lg">
-                  <div className="text-3xl font-bold text-blue-600 mb-2">10+</div>
+                <div className="bg-gradient-to-br from-purple-50 to-pink-50 p-6 rounded-lg hover:shadow-lg transition-all">
+                  <div className="text-3xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-2">10+</div>
                   <div className="text-gray-700">Years Experience</div>
                 </div>
-                <div className="bg-blue-50 p-6 rounded-lg">
-                  <div className="text-3xl font-bold text-blue-600 mb-2">175+</div>
+                <div className="bg-gradient-to-br from-purple-50 to-pink-50 p-6 rounded-lg hover:shadow-lg transition-all">
+                  <div className="text-3xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-2">175+</div>
                   <div className="text-gray-700">Happy Clients</div>
                 </div>
               </div>
@@ -43,7 +43,7 @@ const About = () => {
             <div className="relative">
               <img
                 src={aboutData.image}
-                alt="About Elenor"
+                alt="About Data Lineage Consulting"
                 className="rounded-lg shadow-xl w-full h-full object-cover"
               />
             </div>
@@ -61,10 +61,10 @@ const About = () => {
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <Card className="hover:shadow-xl transition-all duration-300">
+            <Card className="hover:shadow-xl transition-all duration-300 border-t-4 border-purple-600">
               <CardContent className="p-8">
-                <div className="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
-                  <Target className="text-blue-600" size={32} />
+                <div className="w-16 h-16 bg-gradient-to-br from-purple-100 to-pink-100 rounded-lg flex items-center justify-center mb-6">
+                  <Target className="text-purple-600" size={32} />
                 </div>
                 <h3 className="text-2xl font-bold mb-4 text-gray-800">Our Mission</h3>
                 <p className="text-gray-600 leading-relaxed">
@@ -74,10 +74,10 @@ const About = () => {
                 </p>
               </CardContent>
             </Card>
-            <Card className="hover:shadow-xl transition-all duration-300">
+            <Card className="hover:shadow-xl transition-all duration-300 border-t-4 border-pink-600">
               <CardContent className="p-8">
-                <div className="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
-                  <Eye className="text-blue-600" size={32} />
+                <div className="w-16 h-16 bg-gradient-to-br from-purple-100 to-pink-100 rounded-lg flex items-center justify-center mb-6">
+                  <Eye className="text-pink-600" size={32} />
                 </div>
                 <h3 className="text-2xl font-bold mb-4 text-gray-800">Our Vision</h3>
                 <p className="text-gray-600 leading-relaxed">
@@ -95,7 +95,7 @@ const About = () => {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold mb-4 text-gray-800">Why Choose Elenor</h2>
+            <h2 className="text-4xl font-bold mb-4 text-gray-800">Why Choose Data Lineage Consulting</h2>
             <p className="text-gray-600 max-w-3xl mx-auto">
               Delivering innovative solutions to tackle the biggest challenges
             </p>
@@ -105,7 +105,7 @@ const About = () => {
               <Card key={point.number} className="hover:shadow-xl transition-all duration-300">
                 <CardContent className="p-8">
                   <div className="flex items-start space-x-4">
-                    <div className="w-16 h-16 bg-blue-600 text-white rounded-lg flex items-center justify-center text-2xl font-bold flex-shrink-0">
+                    <div className="w-16 h-16 bg-gradient-to-br from-purple-600 to-pink-600 text-white rounded-lg flex items-center justify-center text-2xl font-bold flex-shrink-0 shadow-lg">
                       {point.number}
                     </div>
                     <div>
@@ -121,7 +121,7 @@ const About = () => {
       </section>
 
       {/* Core Values */}
-      <section className="py-20 bg-gradient-to-br from-blue-50 to-gray-50">
+      <section className="py-20 bg-gradient-to-br from-purple-50 to-pink-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4 text-gray-800">Our Core Values</h2>
@@ -130,8 +130,8 @@ const About = () => {
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <div className="w-20 h-20 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-6">
+            <div className="text-center bg-white p-8 rounded-lg hover:shadow-xl transition-all">
+              <div className="w-20 h-20 bg-gradient-to-br from-purple-600 to-pink-600 rounded-full flex items-center justify-center mx-auto mb-6">
                 <Award className="text-white" size={36} />
               </div>
               <h3 className="text-xl font-bold mb-3 text-gray-800">Excellence</h3>
@@ -139,8 +139,8 @@ const About = () => {
                 We strive for excellence in everything we do, delivering quality results that exceed expectations.
               </p>
             </div>
-            <div className="text-center">
-              <div className="w-20 h-20 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-6">
+            <div className="text-center bg-white p-8 rounded-lg hover:shadow-xl transition-all">
+              <div className="w-20 h-20 bg-gradient-to-br from-purple-600 to-pink-600 rounded-full flex items-center justify-center mx-auto mb-6">
                 <Users className="text-white" size={36} />
               </div>
               <h3 className="text-xl font-bold mb-3 text-gray-800">Collaboration</h3>
@@ -148,9 +148,9 @@ const About = () => {
                 We believe in the power of teamwork and building strong partnerships with our clients.
               </p>
             </div>
-            <div className="text-center">
-              <div className="w-20 h-20 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Target className="text-blue-600 bg-white rounded-full p-2" size={36} />
+            <div className="text-center bg-white p-8 rounded-lg hover:shadow-xl transition-all">
+              <div className="w-20 h-20 bg-gradient-to-br from-purple-600 to-pink-600 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Target className="text-white" size={36} />
               </div>
               <h3 className="text-xl font-bold mb-3 text-gray-800">Integrity</h3>
               <p className="text-gray-600">
