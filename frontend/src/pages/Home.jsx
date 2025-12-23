@@ -74,7 +74,7 @@ const Home = () => {
       <section
         className="relative h-screen flex items-center justify-center text-white"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 40, 100, 0.8), rgba(0, 60, 120, 0.85)), url(${heroData.image})`,
+          backgroundImage: `linear-gradient(135deg, rgba(147, 51, 234, 0.8), rgba(236, 72, 153, 0.8), rgba(59, 130, 246, 0.7)), url(${heroData.image})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundAttachment: 'fixed'
@@ -91,7 +91,7 @@ const Home = () => {
             {heroData.description}
           </p>
           <Link to="/about">
-            <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 text-lg">
+            <Button size="lg" className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white px-8 py-6 text-lg shadow-lg hover:shadow-xl transition-all">
               Read More <ArrowRight className="ml-2" size={20} />
             </Button>
           </Link>
