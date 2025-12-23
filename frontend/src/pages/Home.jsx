@@ -236,9 +236,9 @@ const Home = () => {
                   <div>
                     <h3 className="text-2xl font-bold mb-4 text-gray-800">{industry.title}</h3>
                     <p className="text-gray-600 mb-4">{industry.description1}</p>
-                    <p className="text-gray-600 mb-6">{industry.description2}</p>
+                    <p className="text-gray-600 mb-6 leading-relaxed">{industry.description2}</p>
                     <Link to="/industries">
-                      <Button className="bg-blue-600 hover:bg-blue-700 text-white">
+                      <Button className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white shadow-lg hover:shadow-xl transition-all">
                         Read More <ArrowRight className="ml-2" size={18} />
                       </Button>
                     </Link>
