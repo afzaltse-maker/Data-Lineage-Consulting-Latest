@@ -174,13 +174,13 @@ export const blogPosts = [
 
 export const contactInfo = {
   address: {
-    company: 'Elenor Consulting Limited',
+    company: 'Data Lineage Consulting Limited',
     street: 'Unit 16, Dragon\'s Court',
     street2: 'Croft\'s End Road',
     city: 'Bristol BS5 7XX'
   },
   phone: '(+44) 011 739 5040',
-  email: 'info@elenorconsulting.com',
+  email: 'info@datalineageconsulting.com',
   socials: [
     { name: 'Facebook', url: '#', icon: 'Facebook' },
     { name: 'Twitter', url: '#', icon: 'Twitter' },
