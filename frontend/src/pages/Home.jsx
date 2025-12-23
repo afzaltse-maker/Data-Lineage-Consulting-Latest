@@ -251,8 +251,8 @@ const Home = () => {
       </section>
 
       {/* Statistics Section */}
-      <section id="stats-section" className="py-20 bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 text-white relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-purple-600/90 via-pink-600/90 to-blue-600/90"></div>
+      <section id="stats-section" className="py-20 bg-gradient-to-r from-teal-600 via-cyan-600 to-teal-700 text-white relative overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-r from-teal-600/90 via-cyan-600/90 to-teal-700/90"></div>
         <div className="container mx-auto px-4 relative z-10">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             {statistics.map((stat, index) => (
