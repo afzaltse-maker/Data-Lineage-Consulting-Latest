@@ -74,7 +74,7 @@ const Home = () => {
       <section
         className="relative h-screen flex items-center justify-center text-white"
         style={{
-          backgroundImage: `linear-gradient(135deg, rgba(147, 51, 234, 0.8), rgba(236, 72, 153, 0.8), rgba(59, 130, 246, 0.7)), url(${heroData.image})`,
+          backgroundImage: `linear-gradient(135deg, rgba(147, 51, 234, 0.7), rgba(236, 72, 153, 0.7), rgba(59, 130, 246, 0.6)), url(https://customer-assets.emergentagent.com/job_84843c0d-ded0-4aa5-a186-f1759af9054e/artifacts/ouv7eyo5_DLC.jpg)`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundAttachment: 'fixed'
