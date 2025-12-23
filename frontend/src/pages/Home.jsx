@@ -273,7 +273,7 @@ const Home = () => {
             We have committed to provide personalized, conscientious, and comprehensive services to our clientele.
           </p>
           <Link to="/contact">
-            <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 text-lg">
+            <Button size="lg" className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white px-8 py-6 text-lg shadow-lg hover:shadow-xl transition-all">
               CONTACT US
             </Button>
           </Link>
