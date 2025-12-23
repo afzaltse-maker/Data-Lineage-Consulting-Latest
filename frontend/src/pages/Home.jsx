@@ -108,7 +108,7 @@ const Home = () => {
               <p className="text-gray-600 mb-4 leading-relaxed">{aboutData.description1}</p>
               <p className="text-gray-600 mb-6 leading-relaxed">{aboutData.description2}</p>
               <Link to="/about">
-                <Button className="bg-blue-600 hover:bg-blue-700 text-white">
+                <Button className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white shadow-lg hover:shadow-xl transition-all">
                   Read More <ArrowRight className="ml-2" size={18} />
                 </Button>
               </Link>
