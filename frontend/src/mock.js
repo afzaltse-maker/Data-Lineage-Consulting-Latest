@@ -126,7 +126,7 @@ export const whyUsPoints = [
   {
     number: '01',
     title: 'Battle-Tested',
-    description: 'Elenor brings the best from both software worlds to your industry. From one side, you get our 10-year expertise in building wide-ranging custom software.'
+    description: 'Data Lineage Consulting brings the best from both software worlds to your industry. From one side, you get our 10-year expertise in building wide-ranging custom software.'
   },
   {
     number: '02',
