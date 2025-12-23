@@ -61,11 +61,11 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Our Services</h4>
             <ul className="space-y-2 text-gray-400">
-              <li className="hover:text-blue-400 transition-colors cursor-pointer">Application Development</li>
-              <li className="hover:text-blue-400 transition-colors cursor-pointer">Data Management</li>
-              <li className="hover:text-blue-400 transition-colors cursor-pointer">Data Warehousing</li>
-              <li className="hover:text-blue-400 transition-colors cursor-pointer">Contract Staffing</li>
-              <li className="hover:text-blue-400 transition-colors cursor-pointer">Permanent Hire</li>
+              <li className="hover:text-transparent hover:bg-gradient-to-r hover:from-purple-400 hover:to-pink-400 hover:bg-clip-text transition-all cursor-pointer">Application Development</li>
+              <li className="hover:text-transparent hover:bg-gradient-to-r hover:from-purple-400 hover:to-pink-400 hover:bg-clip-text transition-all cursor-pointer">Data Management</li>
+              <li className="hover:text-transparent hover:bg-gradient-to-r hover:from-purple-400 hover:to-pink-400 hover:bg-clip-text transition-all cursor-pointer">Data Warehousing</li>
+              <li className="hover:text-transparent hover:bg-gradient-to-r hover:from-purple-400 hover:to-pink-400 hover:bg-clip-text transition-all cursor-pointer">Contract Staffing</li>
+              <li className="hover:text-transparent hover:bg-gradient-to-r hover:from-purple-400 hover:to-pink-400 hover:bg-clip-text transition-all cursor-pointer">Permanent Hire</li>
             </ul>
           </div>
 
