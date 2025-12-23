@@ -32,15 +32,14 @@ const Header = () => {
             </div>
           </Link>
 
-          {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             {navigationLinks.map((link) => (
               <Link
                 key={link.path}
                 to={link.path}
-                className={`text-sm font-medium transition-colors hover:text-blue-600 ${
+                className={`text-sm font-medium transition-all hover:bg-gradient-to-r hover:from-purple-600 hover:to-pink-600 hover:bg-clip-text hover:text-transparent ${
                   location.pathname === link.path
-                    ? 'text-blue-600'
+                    ? 'bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent'
                     : isScrolled
                     ? 'text-gray-700'
                     : 'text-white'
