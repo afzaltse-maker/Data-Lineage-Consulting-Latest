@@ -166,14 +166,14 @@ const Staffing = () => {
       </section>
 
       {/* CTA */}
-      <section className="py-20 bg-gradient-to-r from-blue-600 to-blue-700 text-white">
+      <section className="py-20 bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold mb-4">Ready to Find Your Perfect Candidates?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             Let's discuss your staffing needs and how we can help you build a winning team
           </p>
           <Link to="/contact">
-            <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-6 text-lg">
+            <Button size="lg" className="bg-white text-purple-600 hover:bg-gray-100 px-8 py-6 text-lg shadow-xl hover:shadow-2xl transition-all">
               Get Started Today
             </Button>
           </Link>
