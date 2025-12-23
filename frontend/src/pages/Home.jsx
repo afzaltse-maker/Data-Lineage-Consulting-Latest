@@ -182,8 +182,8 @@ const Home = () => {
                   const IconComponent = iconMap[service.icon];
                   return (
                     <div key={service.id} className="flex items-start space-x-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-purple-100 to-pink-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                        <IconComponent className="text-purple-600" size={24} />
+                      <div className="w-12 h-12 bg-teal-50 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <IconComponent className="text-teal-600" size={24} />
                       </div>
                       <div>
                         <h3 className="text-xl font-bold mb-2 text-gray-800">{service.title}</h3>
