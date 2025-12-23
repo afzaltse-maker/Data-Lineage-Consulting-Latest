@@ -74,7 +74,7 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
             <div className="space-y-3">
               <div className="flex items-start space-x-3">
-                <MapPin size={18} className="text-transparent bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text mt-1 flex-shrink-0" style={{WebkitTextStroke: '0.5px rgba(168, 85, 247, 0.5)'}} />
+                <MapPin size={18} className="text-teal-400 mt-1 flex-shrink-0" />
                 <div className="text-gray-400 text-sm">
                   <p>{contactInfo.address.company}</p>
                   <p>{contactInfo.address.street}</p>
@@ -83,14 +83,14 @@ const Footer = () => {
                 </div>
               </div>
               <div className="flex items-center space-x-3">
-                <Phone size={18} className="text-transparent bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text flex-shrink-0" style={{WebkitTextStroke: '0.5px rgba(168, 85, 247, 0.5)'}} />
-                <a href={`tel:${contactInfo.phone}`} className="text-gray-400 hover:text-transparent hover:bg-gradient-to-r hover:from-purple-400 hover:to-pink-400 hover:bg-clip-text text-sm">
+                <Phone size={18} className="text-teal-400 flex-shrink-0" />
+                <a href={`tel:${contactInfo.phone}`} className="text-gray-400 hover:text-orange-500 text-sm">
                   {contactInfo.phone}
                 </a>
               </div>
               <div className="flex items-center space-x-3">
-                <Mail size={18} className="text-transparent bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text flex-shrink-0" style={{WebkitTextStroke: '0.5px rgba(168, 85, 247, 0.5)'}} />
-                <a href={`mailto:${contactInfo.email}`} className="text-gray-400 hover:text-transparent hover:bg-gradient-to-r hover:from-purple-400 hover:to-pink-400 hover:bg-clip-text text-sm">
+                <Mail size={18} className="text-teal-400 flex-shrink-0" />
+                <a href={`mailto:${contactInfo.email}`} className="text-gray-400 hover:text-orange-500 text-sm">
                   {contactInfo.email}
                 </a>
               </div>
