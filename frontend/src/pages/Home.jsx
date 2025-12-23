@@ -238,7 +238,7 @@ const Home = () => {
                     <p className="text-gray-600 mb-4">{industry.description1}</p>
                     <p className="text-gray-600 mb-6 leading-relaxed">{industry.description2}</p>
                     <Link to="/industries">
-                      <Button className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white shadow-lg hover:shadow-xl transition-all">
+                      <Button className="bg-orange-500 hover:bg-orange-600 text-white shadow-lg hover:shadow-xl transition-all rounded-full px-6">
                         Read More <ArrowRight className="ml-2" size={18} />
                       </Button>
                     </Link>
