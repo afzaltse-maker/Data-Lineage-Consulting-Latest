@@ -251,11 +251,12 @@ const Home = () => {
       </section>
 
       {/* Statistics Section */}
-      <section id="stats-section" className="py-20 bg-gradient-to-r from-blue-600 to-blue-700 text-white">
-        <div className="container mx-auto px-4">
+      <section id="stats-section" className="py-20 bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 text-white relative overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-r from-purple-600/90 via-pink-600/90 to-blue-600/90"></div>
+        <div className="container mx-auto px-4 relative z-10">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             {statistics.map((stat, index) => (
-              <div key={index}>
+              <div key={index} className="backdrop-blur-sm bg-white/10 rounded-lg p-8 hover:bg-white/20 transition-all">
                 <div className="text-5xl font-bold mb-2">{counters[index]}+</div>
                 <div className="text-xl">{stat.label}</div>
               </div>
