@@ -218,7 +218,7 @@ const Home = () => {
           <Tabs defaultValue="banking" className="w-full">
             <TabsList className="grid w-full grid-cols-3 mb-8 bg-white">
               {industries.map((industry) => (
-                <TabsTrigger key={industry.id} value={industry.id} className="data-[state=active]:bg-blue-600 data-[state=active]:text-white">
+                <TabsTrigger key={industry.id} value={industry.id} className="data-[state=active]:bg-gradient-to-r data-[state=active]:from-purple-600 data-[state=active]:to-pink-600 data-[state=active]:text-white">
                   {industry.name}
                 </TabsTrigger>
               ))}
