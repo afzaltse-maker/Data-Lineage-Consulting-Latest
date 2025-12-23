@@ -153,7 +153,7 @@ const Home = () => {
           </div>
           <div className="text-center mt-8">
             <Link to="/staffing">
-              <Button variant="outline" className="border-2 border-purple-600 text-purple-600 hover:bg-gradient-to-r hover:from-purple-600 hover:to-pink-600 hover:text-white hover:border-transparent transition-all shadow-md hover:shadow-lg">
+              <Button variant="outline" className="border-2 border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white hover:border-transparent transition-all shadow-md hover:shadow-lg rounded-full px-6">
                 View More
               </Button>
             </Link>
