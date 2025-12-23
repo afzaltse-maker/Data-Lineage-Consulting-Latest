@@ -175,15 +175,15 @@ const Home = () => {
             <div>
               <h2 className="text-4xl font-bold mb-6 text-gray-800">OUR SERVICES</h2>
               <p className="text-gray-600 mb-8">
-                Elenor provides consulting and staffing services that are as wide ranging and diverse as the field itself
+                Data Lineage Consulting provides consulting and staffing services that are as wide ranging and diverse as the field itself
               </p>
               <div className="space-y-6">
                 {services.map((service) => {
                   const IconComponent = iconMap[service.icon];
                   return (
                     <div key={service.id} className="flex items-start space-x-4">
-                      <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                        <IconComponent className="text-blue-600" size={24} />
+                      <div className="w-12 h-12 bg-gradient-to-br from-purple-100 to-pink-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <IconComponent className="text-purple-600" size={24} />
                       </div>
                       <div>
                         <h3 className="text-xl font-bold mb-2 text-gray-800">{service.title}</h3>
@@ -195,7 +195,7 @@ const Home = () => {
               </div>
               <div className="mt-8">
                 <Link to="/services">
-                  <Button className="bg-blue-600 hover:bg-blue-700 text-white">
+                  <Button className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white shadow-lg hover:shadow-xl transition-all">
                     Read More <ArrowRight className="ml-2" size={18} />
                   </Button>
                 </Link>
