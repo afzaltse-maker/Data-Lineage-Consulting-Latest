@@ -350,7 +350,7 @@ const Home = () => {
             <div className="space-y-6">
               {whyUsPoints.map((point) => (
                 <div key={point.number} className="flex items-start space-x-4">
-                  <div className="w-16 h-16 bg-blue-600 text-white rounded-lg flex items-center justify-center text-2xl font-bold flex-shrink-0">
+                  <div className="w-16 h-16 bg-gradient-to-br from-purple-600 to-pink-600 text-white rounded-lg flex items-center justify-center text-2xl font-bold flex-shrink-0 shadow-lg">
                     {point.number}
                   </div>
                   <div>
