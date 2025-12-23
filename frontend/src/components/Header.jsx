@@ -27,8 +27,8 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <div className="text-2xl font-bold">
-              <span className={`${isScrolled ? 'text-blue-600' : 'text-white'}`}>Elenor</span>
-              <span className={`${isScrolled ? 'text-gray-800' : 'text-white'}`}> Consulting</span>
+              <span className={`bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent ${isScrolled ? '' : 'drop-shadow-lg'}`}>Data Lineage</span>
+              <span className={`${isScrolled ? 'text-gray-800' : 'text-white drop-shadow-lg'}`}> Consulting</span>
             </div>
           </Link>
 
