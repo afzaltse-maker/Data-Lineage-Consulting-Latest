@@ -307,13 +307,13 @@ const Home = () => {
             </Card>
             <button
               onClick={prevTestimonial}
-              className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 w-12 h-12 bg-white shadow-lg rounded-full flex items-center justify-center hover:bg-blue-600 hover:text-white transition-colors"
+              className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 w-12 h-12 bg-white shadow-lg rounded-full flex items-center justify-center hover:bg-gradient-to-r hover:from-purple-600 hover:to-pink-600 hover:text-white transition-all"
             >
               <ChevronLeft size={24} />
             </button>
             <button
               onClick={nextTestimonial}
-              className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 w-12 h-12 bg-white shadow-lg rounded-full flex items-center justify-center hover:bg-blue-600 hover:text-white transition-colors"
+              className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 w-12 h-12 bg-white shadow-lg rounded-full flex items-center justify-center hover:bg-gradient-to-r hover:from-purple-600 hover:to-pink-600 hover:text-white transition-all"
             >
               <ChevronRight size={24} />
             </button>
@@ -323,7 +323,7 @@ const Home = () => {
                   key={index}
                   onClick={() => setCurrentTestimonial(index)}
                   className={`w-3 h-3 rounded-full transition-colors ${
-                    index === currentTestimonial ? 'bg-blue-600' : 'bg-gray-300'
+                    index === currentTestimonial ? 'bg-gradient-to-r from-purple-600 to-pink-600' : 'bg-gray-300'
                   }`}
                 />
               ))}
