@@ -38,9 +38,7 @@ const Header = () => {
                 key={link.path}
                 to={link.path}
                 className={`text-sm font-medium transition-all hover:text-orange-500 ${
-                  location.pathname === link.path
-                    ? 'text-orange-500'
-                    : isScrolled
+                  isScrolled
                     ? 'text-gray-700'
                     : 'text-white'
                 }`}
