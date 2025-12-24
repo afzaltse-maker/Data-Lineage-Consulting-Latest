@@ -145,7 +145,7 @@ const Contact = () => {
                       <a
                         key={social.name}
                         href={social.url}
-                        className="w-12 h-12 bg-gray-200 hover:bg-blue-600 text-gray-700 hover:text-white rounded-full flex items-center justify-center transition-all duration-300"
+                        className="w-12 h-12 bg-gray-200 hover:bg-orange-500 text-gray-700 hover:text-white rounded-full flex items-center justify-center transition-all duration-300"
                         aria-label={social.name}
                       >
                         <IconComponent size={20} />
