@@ -30,12 +30,12 @@ const About = () => {
               <p className="text-gray-600 mb-4 leading-relaxed">{aboutData.description1}</p>
               <p className="text-gray-600 mb-6 leading-relaxed">{aboutData.description2}</p>
               <div className="grid grid-cols-2 gap-4 mt-8">
-                <div className="bg-gradient-to-br from-purple-50 to-pink-50 p-6 rounded-lg hover:shadow-lg transition-all">
-                  <div className="text-3xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-2">10+</div>
-                  <div className="text-gray-700">Years Experience</div>
+                <div className="bg-gradient-to-br from-teal-50 to-orange-50 p-6 rounded-lg hover:shadow-lg transition-all">
+                  <div className="text-3xl font-bold text-orange-500 mb-2">2003</div>
+                  <div className="text-gray-700">Founded</div>
                 </div>
-                <div className="bg-gradient-to-br from-purple-50 to-pink-50 p-6 rounded-lg hover:shadow-lg transition-all">
-                  <div className="text-3xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-2">175+</div>
+                <div className="bg-gradient-to-br from-teal-50 to-orange-50 p-6 rounded-lg hover:shadow-lg transition-all">
+                  <div className="text-3xl font-bold text-orange-500 mb-2">20+</div>
                   <div className="text-gray-700">Happy Clients</div>
                 </div>
               </div>
