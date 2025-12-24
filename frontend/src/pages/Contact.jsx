@@ -281,7 +281,7 @@ const Contact = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-blue-600 to-blue-700 text-white">
+      <section className="py-20 bg-gradient-to-r from-teal-600 via-cyan-600 to-teal-700 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold mb-4">Ready to Get Started?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
@@ -289,7 +289,7 @@ const Contact = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href={`tel:${contactInfo.phone}`}>
-              <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-6 text-lg">
+              <Button size="lg" className="bg-white text-teal-600 hover:bg-gray-100 px-8 py-6 text-lg rounded-full shadow-xl">
                 <Phone className="mr-2" size={20} />
                 Call Us Now
               </Button>
@@ -298,7 +298,7 @@ const Contact = () => {
               <Button
                 size="lg"
                 variant="outline"
-                className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-6 text-lg"
+                className="border-2 border-white text-white hover:bg-white hover:text-teal-600 px-8 py-6 text-lg rounded-full shadow-xl"
               >
                 <Mail className="mr-2" size={20} />
                 Email Us
