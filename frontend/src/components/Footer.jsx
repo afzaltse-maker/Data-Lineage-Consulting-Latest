@@ -80,6 +80,8 @@ const Footer = () => {
                   <p>{contactInfo.address.street}</p>
                   <p>{contactInfo.address.street2}</p>
                   <p>{contactInfo.address.city}</p>
+                  <p>{contactInfo.address.postcode}</p>
+                  <p>{contactInfo.address.country}</p>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
