@@ -244,7 +244,7 @@ const Contact = () => {
                     <Button
                       type="submit"
                       size="lg"
-                      className="w-full bg-blue-600 hover:bg-blue-700 text-white"
+                      className="w-full bg-orange-500 hover:bg-orange-600 text-white rounded-full"
                     >
                       Send Message <Send className="ml-2" size={18} />
                     </Button>
