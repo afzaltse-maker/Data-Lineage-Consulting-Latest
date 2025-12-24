@@ -175,12 +175,14 @@ export const blogPosts = [
 export const contactInfo = {
   address: {
     company: 'Data Lineage Consulting Limited',
-    street: 'Unit 16, Dragon\'s Court',
-    street2: 'Croft\'s End Road',
-    city: 'Bristol BS5 7XX'
+    street: 'Regus House, Malthouse Avenue',
+    street2: 'Cardiff Gate Business Park',
+    city: 'Cardiff, Mid Glamorgan',
+    postcode: 'CF23 8RU',
+    country: 'United Kingdom'
   },
-  phone: '(+44) 011 739 5040',
-  email: 'info@datalineageconsulting.com',
+  phone: '+44 7776 597479',
+  email: 'info@datalineage.co.uk',
   socials: [
     { name: 'Facebook', url: '#', icon: 'Facebook' },
     { name: 'Twitter', url: '#', icon: 'Twitter' },
