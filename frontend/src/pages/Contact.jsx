@@ -82,8 +82,8 @@ const Contact = () => {
                 <Card className="hover:shadow-lg transition-all duration-300">
                   <CardContent className="p-6">
                     <div className="flex items-start space-x-4">
-                      <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                        <MapPin className="text-blue-600" size={24} />
+                      <div className="w-12 h-12 bg-teal-50 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <MapPin className="text-teal-600" size={24} />
                       </div>
                       <div>
                         <h3 className="font-semibold text-gray-800 mb-2">Office Location</h3>
@@ -91,7 +91,9 @@ const Contact = () => {
                           {contactInfo.address.company}<br />
                           {contactInfo.address.street}<br />
                           {contactInfo.address.street2}<br />
-                          {contactInfo.address.city}
+                          {contactInfo.address.city}<br />
+                          {contactInfo.address.postcode}<br />
+                          {contactInfo.address.country}
                         </p>
                       </div>
                     </div>
@@ -102,12 +104,12 @@ const Contact = () => {
                 <Card className="hover:shadow-lg transition-all duration-300">
                   <CardContent className="p-6">
                     <div className="flex items-start space-x-4">
-                      <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                        <Phone className="text-blue-600" size={24} />
+                      <div className="w-12 h-12 bg-teal-50 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <Phone className="text-teal-600" size={24} />
                       </div>
                       <div>
                         <h3 className="font-semibold text-gray-800 mb-2">Phone</h3>
-                        <a href={`tel:${contactInfo.phone}`} className="text-blue-600 hover:underline">
+                        <a href={`tel:${contactInfo.phone}`} className="text-orange-500 hover:text-orange-600 hover:underline">
                           {contactInfo.phone}
                         </a>
                       </div>
@@ -119,12 +121,12 @@ const Contact = () => {
                 <Card className="hover:shadow-lg transition-all duration-300">
                   <CardContent className="p-6">
                     <div className="flex items-start space-x-4">
-                      <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                        <Mail className="text-blue-600" size={24} />
+                      <div className="w-12 h-12 bg-teal-50 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <Mail className="text-teal-600" size={24} />
                       </div>
                       <div>
                         <h3 className="font-semibold text-gray-800 mb-2">Email</h3>
-                        <a href={`mailto:${contactInfo.email}`} className="text-blue-600 hover:underline">
+                        <a href={`mailto:${contactInfo.email}`} className="text-orange-500 hover:text-orange-600 hover:underline">
                           {contactInfo.email}
                         </a>
                       </div>
