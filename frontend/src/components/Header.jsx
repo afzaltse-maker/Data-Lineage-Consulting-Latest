@@ -64,9 +64,7 @@ const Header = () => {
               <Link
                 key={link.path}
                 to={link.path}
-                className={`block px-4 py-2 text-sm font-medium transition-colors hover:bg-orange-50 hover:text-orange-500 ${
-                  location.pathname === link.path ? 'text-orange-500 bg-orange-50' : 'text-gray-700'
-                }`}
+                className="block px-4 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-orange-50 hover:text-orange-500"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 {link.name}
