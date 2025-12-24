@@ -9,6 +9,7 @@ import About from "./pages/About";
 import Staffing from "./pages/Staffing";
 import Services from "./pages/Services";
 import Industries from "./pages/Industries";
+import Training from "./pages/Training";
 import Contact from "./pages/Contact";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/staffing" element={<Staffing />} />
           <Route path="/services" element={<Services />} />
           <Route path="/industries" element={<Industries />} />
+          <Route path="/training" element={<Training />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
