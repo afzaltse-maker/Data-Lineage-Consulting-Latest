@@ -6,6 +6,7 @@ export const navigationLinks = [
   { name: 'Staffing', path: '/staffing' },
   { name: 'Services', path: '/services' },
   { name: 'Industries', path: '/industries' },
+  { name: 'Training', path: '/training' },
   { name: 'Contact', path: '/contact' }
 ];
 
