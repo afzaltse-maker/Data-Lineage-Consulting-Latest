@@ -154,7 +154,7 @@ const Industries = () => {
             ].map((item, index) => (
               <Card key={index} className="hover:shadow-xl transition-all duration-300">
                 <CardContent className="p-6">
-                  <div className="w-12 h-12 bg-blue-600 text-white rounded-lg flex items-center justify-center text-xl font-bold mb-4">
+                  <div className="w-12 h-12 bg-orange-500 text-white rounded-lg flex items-center justify-center text-xl font-bold mb-4">
                     {String(index + 1).padStart(2, '0')}
                   </div>
                   <h3 className="text-xl font-bold mb-3 text-gray-800">{item.title}</h3>
