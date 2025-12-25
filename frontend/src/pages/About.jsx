@@ -61,10 +61,10 @@ const About = () => {
             <div>
               <h2 className="text-4xl font-bold mb-6 text-gray-800">About Data Lineage Consulting</h2>
               <p className="text-gray-600 mb-4 leading-relaxed">
-                Data Lineage Consulting was founded in 2003. Started with small deals and engagements, today we can proudly say that we are successful to keep our clients satisfied and the trust we have built has leverages both clients and partners to treat us as a trusted partner.
+                Data Lineage Consulting was founded in 2022. Started with small deals and engagements, today we can proudly say that we are successful to keep our clients satisfied and the trust we have built has leverages both clients and partners to treat us as a trusted partner.
               </p>
               <p className="text-gray-600 mb-4 leading-relaxed">
-                We are a global organization offering talent solutions to 20+ customers including across Financial Services, Healthcare, Life Sciences, Aerospace, Energy, Retail, Telecom, Technology, Manufacturing, and Engineering. Headquartered in United Kingdom and have our Offshore location in India. We are also partners with some of the leading organisations whom we keep supporting and work together on global opportunities.
+                We are a global organization offering talent solutions to 10+ customers including across Financial Services, Healthcare, Life Sciences, Aerospace, Energy, Retail, Telecom, Technology, Manufacturing, and Engineering. Headquartered in United Kingdom and have our Offshore location in India. We are also partners with some of the leading organisations whom we keep supporting and work together on global opportunities.
               </p>
               <p className="text-gray-600 mb-6 leading-relaxed">
                 Working as your talent partner, our team of experts and specialized individuals act as your own team members whom you can trust and work together for enhanced operational efficiency and increased productivity within the committed timelines.
