@@ -191,14 +191,14 @@ const Industries = () => {
       </section>
 
       {/* CTA */}
-      <section className="py-20 bg-gradient-to-r from-blue-600 to-blue-700 text-white">
+      <section className="py-20 bg-gradient-to-r from-teal-600 via-cyan-600 to-teal-700 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold mb-4">Ready to Transform Your Industry?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             Let's discuss how our industry expertise can drive your success
           </p>
           <Link to="/contact">
-            <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-6 text-lg">
+            <Button size="lg" className="bg-white text-teal-600 hover:bg-gray-100 px-8 py-6 text-lg shadow-xl rounded-full">
               Get In Touch
             </Button>
           </Link>
