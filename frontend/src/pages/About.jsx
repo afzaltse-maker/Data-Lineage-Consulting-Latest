@@ -71,11 +71,11 @@ const About = () => {
               </p>
               <div className="grid grid-cols-2 gap-4 mt-8">
                 <div className="bg-gradient-to-br from-teal-50 to-orange-50 p-6 rounded-lg hover:shadow-lg transition-all">
-                  <div className="text-3xl font-bold text-orange-500 mb-2">2003</div>
+                  <div className="text-3xl font-bold text-orange-500 mb-2">2022</div>
                   <div className="text-gray-700">Founded</div>
                 </div>
                 <div className="bg-gradient-to-br from-teal-50 to-orange-50 p-6 rounded-lg hover:shadow-lg transition-all">
-                  <div className="text-3xl font-bold text-orange-500 mb-2">20+</div>
+                  <div className="text-3xl font-bold text-orange-500 mb-2">10+</div>
                   <div className="text-gray-700">Happy Clients</div>
                 </div>
               </div>
