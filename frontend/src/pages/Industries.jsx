@@ -70,7 +70,7 @@ const Industries = () => {
                       <p className="text-gray-600 mb-4 leading-relaxed">{industry.description1}</p>
                       <p className="text-gray-600 mb-6 leading-relaxed">{industry.description2}</p>
                       <Link to="/contact">
-                        <Button className="bg-blue-600 hover:bg-blue-700 text-white">
+                        <Button className="bg-orange-500 hover:bg-orange-600 text-white shadow-lg hover:shadow-xl transition-all rounded-full px-6">
                           Learn More <ArrowRight className="ml-2" size={18} />
                         </Button>
                       </Link>
@@ -103,7 +103,7 @@ const Industries = () => {
                       <p className="text-gray-600 mb-4 leading-relaxed">{industry.description1}</p>
                       <p className="text-gray-600 mb-6 leading-relaxed">{industry.description2}</p>
                       <Link to="/contact">
-                        <Button className="bg-blue-600 hover:bg-blue-700 text-white">
+                        <Button className="bg-orange-500 hover:bg-orange-600 text-white shadow-lg hover:shadow-xl transition-all rounded-full px-6">
                           Learn More <ArrowRight className="ml-2" size={18} />
                         </Button>
                       </Link>
