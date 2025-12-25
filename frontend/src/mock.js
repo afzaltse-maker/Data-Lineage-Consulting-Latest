@@ -94,8 +94,8 @@ export const industries = [
 ];
 
 export const statistics = [
-  { value: 20, label: 'Satisfied Customers' },
-  { value: 21, label: 'Years of Excellence' },
+  { value: 10, label: 'Satisfied Customers' },
+  { value: 5, label: 'Years of Excellence' },
   { value: 24, label: 'Hours Support' }
 ];
 
