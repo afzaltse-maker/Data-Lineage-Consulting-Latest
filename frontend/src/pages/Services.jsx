@@ -116,8 +116,8 @@ const Services = () => {
               return (
                 <Card key={index} className="hover:shadow-xl transition-all duration-300">
                   <CardContent className="p-6">
-                    <div className="w-14 h-14 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
-                      <IconComponent className="text-blue-600" size={28} />
+                    <div className="w-14 h-14 bg-teal-50 rounded-lg flex items-center justify-center mb-4">
+                      <IconComponent className="text-teal-600" size={28} />
                     </div>
                     <h3 className="text-xl font-bold mb-3 text-gray-800">{service.title}</h3>
                     <p className="text-gray-600">{service.description}</p>
