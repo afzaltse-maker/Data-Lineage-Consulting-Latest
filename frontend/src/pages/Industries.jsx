@@ -175,15 +175,14 @@ const Industries = () => {
               Measurable results that demonstrate our industry expertise
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { value: '250+', label: 'Industry Projects' },
+              { value: '100+', label: 'Industry Projects' },
               { value: '98%', label: 'Client Satisfaction' },
-              { value: '15+', label: 'Years Experience' },
               { value: '50+', label: 'Industry Experts' }
             ].map((stat, index) => (
               <div key={index} className="text-center">
-                <div className="text-5xl font-bold text-blue-600 mb-2">{stat.value}</div>
+                <div className="text-5xl font-bold text-orange-500 mb-2">{stat.value}</div>
                 <div className="text-gray-600 text-lg">{stat.label}</div>
               </div>
             ))}
