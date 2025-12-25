@@ -61,10 +61,10 @@ const Industries = () => {
                   <>
                     <div>
                       <div className="flex items-center mb-4">
-                        <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mr-4">
-                          <IconComponent className="text-blue-600" size={28} />
+                        <div className="w-12 h-12 bg-teal-50 rounded-lg flex items-center justify-center mr-4">
+                          <IconComponent className="text-teal-600" size={28} />
                         </div>
-                        <span className="text-blue-600 font-semibold text-lg">{industry.name}</span>
+                        <span className="text-orange-500 font-semibold text-lg">{industry.name}</span>
                       </div>
                       <h3 className="text-3xl font-bold mb-6 text-gray-800">{industry.title}</h3>
                       <p className="text-gray-600 mb-4 leading-relaxed">{industry.description1}</p>
@@ -94,10 +94,10 @@ const Industries = () => {
                     </div>
                     <div>
                       <div className="flex items-center mb-4">
-                        <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mr-4">
-                          <IconComponent className="text-blue-600" size={28} />
+                        <div className="w-12 h-12 bg-teal-50 rounded-lg flex items-center justify-center mr-4">
+                          <IconComponent className="text-teal-600" size={28} />
                         </div>
-                        <span className="text-blue-600 font-semibold text-lg">{industry.name}</span>
+                        <span className="text-orange-500 font-semibold text-lg">{industry.name}</span>
                       </div>
                       <h3 className="text-3xl font-bold mb-6 text-gray-800">{industry.title}</h3>
                       <p className="text-gray-600 mb-4 leading-relaxed">{industry.description1}</p>
