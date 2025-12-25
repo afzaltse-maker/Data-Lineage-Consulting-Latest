@@ -18,7 +18,7 @@ const Industries = () => {
       <section
         className="relative h-96 flex items-center justify-center text-white"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 40, 100, 0.8), rgba(0, 60, 120, 0.85)), url(https://images.pexels.com/photos/3184438/pexels-photo-3184438.jpeg)`,
+          backgroundImage: `linear-gradient(135deg, rgba(0, 150, 136, 0.75), rgba(0, 172, 193, 0.7)), url(https://images.pexels.com/photos/3184438/pexels-photo-3184438.jpeg)`,
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}
